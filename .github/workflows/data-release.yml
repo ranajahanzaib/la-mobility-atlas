@@ -1,0 +1,30 @@
+name: Publish Data Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_tag:
+        description: "Release identifier (e.g. rel-2019-12-v1)"
+        required: true
+        default: "rel-2019-12-v1"
+
+jobs:
+  publish:
+    name: Generate and Publish Release Artifacts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Execute Publishing Pipeline
+        run: |
+          python3 pipelines/mobility/src/mobility/publishing/publisher.py
+      - name: Upload Release Artifacts to R2
+        env:
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: "la-mobility-atlas-data"
+        run: |
+          echo "Syncing data/processed/releases/${{ github.event.inputs.release_tag }} to Cloudflare R2..."

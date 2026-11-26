@@ -7,27 +7,50 @@ on:
     branches: [main]
 
 jobs:
-  build:
+  test-python:
+    name: Python Data Engineering Pipeline Tests
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run Python unit tests
+        run: |
+          PYTHONPATH=pipelines/mobility/src python3 -m unittest discover -s pipelines/mobility/tests -p "test_*.py"
 
+  test-rust:
+    name: Rust Backend API Tests & WASM Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: wasm32-unknown-unknown
+      - name: Run Cargo integration tests
+        run: |
+          cargo test --tests --manifest-path services/api/Cargo.toml
+      - name: Build WebAssembly Target
+        run: |
+          cargo build --release --manifest-path services/api/Cargo.toml --target wasm32-unknown-unknown --lib
+
+  test-web:
+    name: Web App Typecheck & Static Prerender
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
-
-      # Uncomment and adjust the steps below to match your project's setup
-
-      # - name: Install dependencies
-      #   run: npm ci
-
-      # - name: Lint
-      #   run: npm run lint
-
-      # - name: Run tests
-      #   run: npm test
-
-      # - name: Build
-      #   run: npm run build
+          cache: "pnpm"
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Build and prerender static pages
+        run: pnpm --filter web build
