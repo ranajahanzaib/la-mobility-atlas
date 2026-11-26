@@ -1,0 +1,13 @@
+{
+  "name": "@la-mobility-atlas/visualization",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@la-mobility-atlas/contracts": "workspace:*",
+    "@la-mobility-atlas/design-tokens": "workspace:*"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  }
+}

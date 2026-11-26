@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "declaration": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@la-mobility-atlas/contracts": ["../contracts/src"],
+      "@la-mobility-atlas/design-tokens": ["../design-tokens/src"]
+    }
+  },
+  "include": ["src/**/*"]
+}
