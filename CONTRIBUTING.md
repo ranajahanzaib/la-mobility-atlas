@@ -1,46 +1,96 @@
-## Contributing
+# Contributing to LA Mobility Atlas
 
-We welcome contributions of all kinds to improve this project! Here's how you can get involved:
+Thank you for your interest in contributing to **LA Mobility Atlas**! As an open-source scientific intelligence platform, we welcome contributions including bug fixes, feature enhancements, documentation improvements, and performance optimizations.
 
-1. **Fork the Repository**: Start by forking the repository to your GitHub account.
+---
 
-2. **Clone Your Fork**: Clone the forked repository to your local machine:
+## 1. Code of Conduct
 
+All contributors and participants are expected to adhere to our [Code of Conduct](CODE_OF_CONDUCT.md). Please treat all community members with respect and professionalism.
+
+---
+
+## 2. Scientific & Ethical Guidelines
+
+Contributors must review and uphold the core research principles specified in [`AGENTS.md`](AGENTS.md):
+
+- **Synthetic Data Integrity**: Under no circumstances should copy or analytical narratives present the synthetic DDTG trajectory dataset as real-time GPS telemetry, personal travel diaries, or official toll records.
+- **Non-Inference**: Do not extrapolate commuter identity, personal residential locations, income, or demographic traits from trajectory endpoints.
+- **Geographic Bounding Box**: Los Angeles metropolitan coverage is bounded by:
+  - North: `34.335035° N`
+  - South: `33.699820° N`
+  - West: `-118.667665° W`
+  - East: `-118.180532° W`
+
+---
+
+## 3. Development Workflow
+
+### Prerequisites
+
+- **Node.js**: v20 or higher
+- **pnpm**: v9 or higher
+- **Rust**: 1.75+ (with `wasm32-unknown-unknown` target)
+- **Python**: 3.11+
+
+### Fork and Clone
+
+```bash
+git clone https://github.com/ranajahanzaib/la-mobility-atlas.git
+cd la-mobility-atlas
+pnpm install
+```
+
+### Creating a Branch
+
+Create a descriptive branch for your work:
+
+```bash
+git checkout -b feature/your-feature-name
+# or
+git checkout -b fix/issue-description
+```
+
+---
+
+## 4. Testing Protocols
+
+Before submitting a pull request, ensure all validation tests pass across the monorepo:
+
+### 1. Python Data Pipeline Tests
+
+```bash
+PYTHONPATH=pipelines/mobility/src python3 -m unittest discover -s pipelines/mobility/tests -p "test_*.py"
+```
+
+### 2. Rust Backend API Integration Tests
+
+```bash
+cargo test --tests --manifest-path services/api/Cargo.toml
+```
+
+### 3. Frontend Static Build Verification
+
+```bash
+pnpm --filter @la-mobility-atlas/web build
+```
+
+### 4. End-to-End Build Script
+
+You can run the full automated verification script:
+
+```bash
+./scripts/build.sh
+```
+
+---
+
+## 5. Submitting a Pull Request
+
+1. Push your branch to your forked repository:
    ```bash
-   git clone <repo_url>
-   cd repo_dir
+   git push origin feature/your-feature-name
    ```
-
-3. **Create a Branch**: Create a new branch for your feature or bug fix:
-
-   ```bash
-   git checkout -b feature-name
-   ```
-
-4. **Make Changes**: Make your changes to the codebase. Be sure to follow existing code style and conventions.
-
-5. **Commit Changes**: Commit your changes with a clear and descriptive message:
-
-   ```bash
-   git commit -m "Add detailed description of the changes"
-   ```
-
-6. **Push Changes**: Push your changes to your fork:
-
-   ```bash
-   git push origin feature-name
-   ```
-
-7. **Submit a Pull Request**: Open a pull request from your branch to the main repository's branch. Include a detailed description of your changes and the problem they solve.
-
-8. **Review and Feedback**: Participate in the review process. Make any requested changes, and your contribution will be merged!
-
-### Guidelines
-
-- Ensure your code follows the existing style and conventions.
-- Include tests for any new functionality or bug fixes.
-- Write clear, concise commit messages and pull request descriptions.
-
-### Issues
-
-Feel free to report bugs or suggest enhancements by creating an issue. Be sure to include detailed information about the problem and, if possible, steps to reproduce it.
+2. Open a Pull Request against the `main` branch of `ranajahanzaib/la-mobility-atlas`.
+3. Provide a clear description of the problem solved, changes made, and test coverage added.
+4. Reference any relevant issue numbers using GitHub keywords (e.g., `Fixes #12`).
