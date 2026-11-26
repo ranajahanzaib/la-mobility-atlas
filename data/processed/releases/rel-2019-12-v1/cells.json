@@ -1,0 +1,1412 @@
+[
+  {
+    "cell_id": "8729a007800e001",
+    "resolution": 7,
+    "center_lat": 34.0315,
+    "center_lng": -118.246442,
+    "boundary": [
+      [
+        -118.233713,
+        34.03759
+      ],
+      [
+        -118.246442,
+        34.04368
+      ],
+      [
+        -118.25917,
+        34.03759
+      ],
+      [
+        -118.25917,
+        34.02541
+      ],
+      [
+        -118.246442,
+        34.01932
+      ],
+      [
+        -118.233713,
+        34.02541
+      ],
+      [
+        -118.233713,
+        34.03759
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 352,
+    "destination_count": 333,
+    "distinct_trajectories": 685,
+    "observation_count": 10971,
+    "within_cell_trips": 0,
+    "incoming_count": 333,
+    "outgoing_count": 352,
+    "median_duration": 1468.4,
+    "median_distance": 22435.5,
+    "mean_duration": 1557.3
+  },
+  {
+    "cell_id": "8729a0077ff6001",
+    "resolution": 7,
+    "center_lat": 34.0315,
+    "center_lng": -118.509685,
+    "boundary": [
+      [
+        -118.496956,
+        34.03759
+      ],
+      [
+        -118.509685,
+        34.04368
+      ],
+      [
+        -118.522413,
+        34.03759
+      ],
+      [
+        -118.522413,
+        34.02541
+      ],
+      [
+        -118.509685,
+        34.01932
+      ],
+      [
+        -118.496956,
+        34.02541
+      ],
+      [
+        -118.496956,
+        34.03759
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 224,
+    "destination_count": 239,
+    "distinct_trajectories": 463,
+    "observation_count": 6855,
+    "within_cell_trips": 0,
+    "incoming_count": 239,
+    "outgoing_count": 224,
+    "median_duration": 1605.9,
+    "median_distance": 21497.6,
+    "mean_duration": 1638.7
+  },
+  {
+    "cell_id": "8729a0078005ffe",
+    "resolution": 7,
+    "center_lat": 33.937,
+    "center_lng": -118.4,
+    "boundary": [
+      [
+        -118.387286,
+        33.94309
+      ],
+      [
+        -118.4,
+        33.94918
+      ],
+      [
+        -118.412714,
+        33.94309
+      ],
+      [
+        -118.412714,
+        33.93091
+      ],
+      [
+        -118.4,
+        33.92482
+      ],
+      [
+        -118.387286,
+        33.93091
+      ],
+      [
+        -118.387286,
+        33.94309
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 186,
+    "destination_count": 192,
+    "distinct_trajectories": 378,
+    "observation_count": 5608,
+    "within_cell_trips": 0,
+    "incoming_count": 192,
+    "outgoing_count": 186,
+    "median_duration": 1409.6,
+    "median_distance": 16397.2,
+    "mean_duration": 1490.7
+  },
+  {
+    "cell_id": "8729a0078002003",
+    "resolution": 7,
+    "center_lat": 34.0945,
+    "center_lng": -118.334189,
+    "boundary": [
+      [
+        -118.321452,
+        34.10059
+      ],
+      [
+        -118.334189,
+        34.10668
+      ],
+      [
+        -118.346927,
+        34.10059
+      ],
+      [
+        -118.346927,
+        34.08841
+      ],
+      [
+        -118.334189,
+        34.08232
+      ],
+      [
+        -118.321452,
+        34.08841
+      ],
+      [
+        -118.321452,
+        34.10059
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 147,
+    "destination_count": 158,
+    "distinct_trajectories": 295,
+    "observation_count": 4445,
+    "within_cell_trips": 10,
+    "incoming_count": 158,
+    "outgoing_count": 147,
+    "median_duration": 846.9,
+    "median_distance": 10832.5,
+    "mean_duration": 1084.7
+  },
+  {
+    "cell_id": "8729a0078006003",
+    "resolution": 7,
+    "center_lat": 34.0945,
+    "center_lng": -118.290315,
+    "boundary": [
+      [
+        -118.277578,
+        34.10059
+      ],
+      [
+        -118.290315,
+        34.10668
+      ],
+      [
+        -118.303053,
+        34.10059
+      ],
+      [
+        -118.303053,
+        34.08841
+      ],
+      [
+        -118.290315,
+        34.08232
+      ],
+      [
+        -118.277578,
+        34.08841
+      ],
+      [
+        -118.277578,
+        34.10059
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 142,
+    "destination_count": 147,
+    "distinct_trajectories": 289,
+    "observation_count": 4247,
+    "within_cell_trips": 0,
+    "incoming_count": 147,
+    "outgoing_count": 142,
+    "median_duration": 1383.9,
+    "median_distance": 18376.0,
+    "mean_duration": 1372.3
+  },
+  {
+    "cell_id": "8729a0078005fff",
+    "resolution": 7,
+    "center_lat": 33.9685,
+    "center_lng": -118.378063,
+    "boundary": [
+      [
+        -118.365344,
+        33.97459
+      ],
+      [
+        -118.378063,
+        33.98068
+      ],
+      [
+        -118.390782,
+        33.97459
+      ],
+      [
+        -118.390782,
+        33.96241
+      ],
+      [
+        -118.378063,
+        33.95632
+      ],
+      [
+        -118.365344,
+        33.96241
+      ],
+      [
+        -118.365344,
+        33.97459
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 141,
+    "destination_count": 146,
+    "distinct_trajectories": 287,
+    "observation_count": 4420,
+    "within_cell_trips": 0,
+    "incoming_count": 146,
+    "outgoing_count": 141,
+    "median_duration": 1290.2,
+    "median_distance": 16426.1,
+    "mean_duration": 1329.7
+  },
+  {
+    "cell_id": "8729a0077ffa002",
+    "resolution": 7,
+    "center_lat": 34.063,
+    "center_lng": -118.443874,
+    "boundary": [
+      [
+        -118.431141,
+        34.06909
+      ],
+      [
+        -118.443874,
+        34.07518
+      ],
+      [
+        -118.456607,
+        34.06909
+      ],
+      [
+        -118.456607,
+        34.05691
+      ],
+      [
+        -118.443874,
+        34.05082
+      ],
+      [
+        -118.431141,
+        34.05691
+      ],
+      [
+        -118.431141,
+        34.06909
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 101,
+    "destination_count": 111,
+    "distinct_trajectories": 212,
+    "observation_count": 3005,
+    "within_cell_trips": 0,
+    "incoming_count": 111,
+    "outgoing_count": 101,
+    "median_duration": 1200.9,
+    "median_distance": 16232.2,
+    "mean_duration": 1187.0
+  },
+  {
+    "cell_id": "8729a0078002002",
+    "resolution": 7,
+    "center_lat": 34.063,
+    "center_lng": -118.356126,
+    "boundary": [
+      [
+        -118.343393,
+        34.06909
+      ],
+      [
+        -118.356126,
+        34.07518
+      ],
+      [
+        -118.368859,
+        34.06909
+      ],
+      [
+        -118.368859,
+        34.05691
+      ],
+      [
+        -118.356126,
+        34.05082
+      ],
+      [
+        -118.343393,
+        34.05691
+      ],
+      [
+        -118.343393,
+        34.06909
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 92,
+    "destination_count": 81,
+    "distinct_trajectories": 173,
+    "observation_count": 2775,
+    "within_cell_trips": 0,
+    "incoming_count": 81,
+    "outgoing_count": 92,
+    "median_duration": 809.1,
+    "median_distance": 10046.4,
+    "mean_duration": 849.2
+  },
+  {
+    "cell_id": "8729a0077ffe003",
+    "resolution": 7,
+    "center_lat": 34.0945,
+    "center_lng": -118.378063,
+    "boundary": [
+      [
+        -118.365325,
+        34.10059
+      ],
+      [
+        -118.378063,
+        34.10668
+      ],
+      [
+        -118.390801,
+        34.10059
+      ],
+      [
+        -118.390801,
+        34.08841
+      ],
+      [
+        -118.378063,
+        34.08232
+      ],
+      [
+        -118.365325,
+        34.08841
+      ],
+      [
+        -118.365325,
+        34.10059
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 77,
+    "destination_count": 87,
+    "distinct_trajectories": 164,
+    "observation_count": 2304,
+    "within_cell_trips": 0,
+    "incoming_count": 87,
+    "outgoing_count": 77,
+    "median_duration": 1168.8,
+    "median_distance": 16354.3,
+    "mean_duration": 1198.6
+  },
+  {
+    "cell_id": "8729a0078001fff",
+    "resolution": 7,
+    "center_lat": 33.9685,
+    "center_lng": -118.421937,
+    "boundary": [
+      [
+        -118.409218,
+        33.97459
+      ],
+      [
+        -118.421937,
+        33.98068
+      ],
+      [
+        -118.434656,
+        33.97459
+      ],
+      [
+        -118.434656,
+        33.96241
+      ],
+      [
+        -118.421937,
+        33.95632
+      ],
+      [
+        -118.409218,
+        33.96241
+      ],
+      [
+        -118.409218,
+        33.97459
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 94,
+    "destination_count": 69,
+    "distinct_trajectories": 163,
+    "observation_count": 2977,
+    "within_cell_trips": 0,
+    "incoming_count": 69,
+    "outgoing_count": 94,
+    "median_duration": 1492.1,
+    "median_distance": 20739.5,
+    "mean_duration": 1454.9
+  },
+  {
+    "cell_id": "8729a0077ffa001",
+    "resolution": 7,
+    "center_lat": 34.0315,
+    "center_lng": -118.465811,
+    "boundary": [
+      [
+        -118.453083,
+        34.03759
+      ],
+      [
+        -118.465811,
+        34.04368
+      ],
+      [
+        -118.478539,
+        34.03759
+      ],
+      [
+        -118.478539,
+        34.02541
+      ],
+      [
+        -118.465811,
+        34.01932
+      ],
+      [
+        -118.453083,
+        34.02541
+      ],
+      [
+        -118.453083,
+        34.03759
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 89,
+    "destination_count": 72,
+    "distinct_trajectories": 161,
+    "observation_count": 2759,
+    "within_cell_trips": 0,
+    "incoming_count": 72,
+    "outgoing_count": 89,
+    "median_duration": 1564.3,
+    "median_distance": 23493.5,
+    "mean_duration": 1655.7
+  },
+  {
+    "cell_id": "8729a007800dfff",
+    "resolution": 7,
+    "center_lat": 33.9685,
+    "center_lng": -118.290315,
+    "boundary": [
+      [
+        -118.277597,
+        33.97459
+      ],
+      [
+        -118.290315,
+        33.98068
+      ],
+      [
+        -118.303034,
+        33.97459
+      ],
+      [
+        -118.303034,
+        33.96241
+      ],
+      [
+        -118.290315,
+        33.95632
+      ],
+      [
+        -118.277597,
+        33.96241
+      ],
+      [
+        -118.277597,
+        33.97459
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 75,
+    "destination_count": 83,
+    "distinct_trajectories": 158,
+    "observation_count": 2250,
+    "within_cell_trips": 0,
+    "incoming_count": 83,
+    "outgoing_count": 75,
+    "median_duration": 1237.3,
+    "median_distance": 17278.8,
+    "mean_duration": 1345.6
+  },
+  {
+    "cell_id": "8729a0078002001",
+    "resolution": 7,
+    "center_lat": 34.0315,
+    "center_lng": -118.378063,
+    "boundary": [
+      [
+        -118.365335,
+        34.03759
+      ],
+      [
+        -118.378063,
+        34.04368
+      ],
+      [
+        -118.390791,
+        34.03759
+      ],
+      [
+        -118.390791,
+        34.02541
+      ],
+      [
+        -118.378063,
+        34.01932
+      ],
+      [
+        -118.365335,
+        34.02541
+      ],
+      [
+        -118.365335,
+        34.03759
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 83,
+    "destination_count": 70,
+    "distinct_trajectories": 153,
+    "observation_count": 2529,
+    "within_cell_trips": 0,
+    "incoming_count": 70,
+    "outgoing_count": 83,
+    "median_duration": 776.5,
+    "median_distance": 8735.2,
+    "mean_duration": 871.7
+  },
+  {
+    "cell_id": "8729a0078011fff",
+    "resolution": 7,
+    "center_lat": 33.9685,
+    "center_lng": -118.246442,
+    "boundary": [
+      [
+        -118.233723,
+        33.97459
+      ],
+      [
+        -118.246442,
+        33.98068
+      ],
+      [
+        -118.25916,
+        33.97459
+      ],
+      [
+        -118.25916,
+        33.96241
+      ],
+      [
+        -118.246442,
+        33.95632
+      ],
+      [
+        -118.233723,
+        33.96241
+      ],
+      [
+        -118.233723,
+        33.97459
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 69,
+    "destination_count": 64,
+    "distinct_trajectories": 133,
+    "observation_count": 2136,
+    "within_cell_trips": 0,
+    "incoming_count": 64,
+    "outgoing_count": 69,
+    "median_duration": 1454.3,
+    "median_distance": 21035.7,
+    "mean_duration": 1508.2
+  },
+  {
+    "cell_id": "8729a007800dffe",
+    "resolution": 7,
+    "center_lat": 33.937,
+    "center_lng": -118.312252,
+    "boundary": [
+      [
+        -118.299538,
+        33.94309
+      ],
+      [
+        -118.312252,
+        33.94918
+      ],
+      [
+        -118.324966,
+        33.94309
+      ],
+      [
+        -118.324966,
+        33.93091
+      ],
+      [
+        -118.312252,
+        33.92482
+      ],
+      [
+        -118.299538,
+        33.93091
+      ],
+      [
+        -118.299538,
+        33.94309
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 64,
+    "destination_count": 63,
+    "distinct_trajectories": 127,
+    "observation_count": 1891,
+    "within_cell_trips": 0,
+    "incoming_count": 63,
+    "outgoing_count": 64,
+    "median_duration": 1477.3,
+    "median_distance": 20424.6,
+    "mean_duration": 1589.6
+  },
+  {
+    "cell_id": "8729a0078011ffe",
+    "resolution": 7,
+    "center_lat": 33.937,
+    "center_lng": -118.268378,
+    "boundary": [
+      [
+        -118.255664,
+        33.94309
+      ],
+      [
+        -118.268378,
+        33.94918
+      ],
+      [
+        -118.281092,
+        33.94309
+      ],
+      [
+        -118.281092,
+        33.93091
+      ],
+      [
+        -118.268378,
+        33.92482
+      ],
+      [
+        -118.255664,
+        33.93091
+      ],
+      [
+        -118.255664,
+        33.94309
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 54,
+    "destination_count": 69,
+    "distinct_trajectories": 123,
+    "observation_count": 1555,
+    "within_cell_trips": 0,
+    "incoming_count": 69,
+    "outgoing_count": 54,
+    "median_duration": 1103.4,
+    "median_distance": 13582.8,
+    "mean_duration": 1118.9
+  },
+  {
+    "cell_id": "8729a007800e000",
+    "resolution": 7,
+    "center_lat": 34.0,
+    "center_lng": -118.268378,
+    "boundary": [
+      [
+        -118.255655,
+        34.00609
+      ],
+      [
+        -118.268378,
+        34.01218
+      ],
+      [
+        -118.281102,
+        34.00609
+      ],
+      [
+        -118.281102,
+        33.99391
+      ],
+      [
+        -118.268378,
+        33.98782
+      ],
+      [
+        -118.255655,
+        33.99391
+      ],
+      [
+        -118.255655,
+        34.00609
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 58,
+    "destination_count": 64,
+    "distinct_trajectories": 100,
+    "observation_count": 1741,
+    "within_cell_trips": 22,
+    "incoming_count": 64,
+    "outgoing_count": 58,
+    "median_duration": 524.8,
+    "median_distance": 7911.8,
+    "mean_duration": 538.8
+  },
+  {
+    "cell_id": "8729a0077ffe004",
+    "resolution": 7,
+    "center_lat": 34.126,
+    "center_lng": -118.356126,
+    "boundary": [
+      [
+        -118.343384,
+        34.13209
+      ],
+      [
+        -118.356126,
+        34.13818
+      ],
+      [
+        -118.368869,
+        34.13209
+      ],
+      [
+        -118.368869,
+        34.11991
+      ],
+      [
+        -118.356126,
+        34.11382
+      ],
+      [
+        -118.343384,
+        34.11991
+      ],
+      [
+        -118.343384,
+        34.13209
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 57,
+    "destination_count": 61,
+    "distinct_trajectories": 118,
+    "observation_count": 1762,
+    "within_cell_trips": 0,
+    "incoming_count": 61,
+    "outgoing_count": 57,
+    "median_duration": 739.4,
+    "median_distance": 9784.1,
+    "mean_duration": 749.8
+  },
+  {
+    "cell_id": "8729a0077ff2005",
+    "resolution": 7,
+    "center_lat": 34.1575,
+    "center_lng": -118.465811,
+    "boundary": [
+      [
+        -118.453064,
+        34.16359
+      ],
+      [
+        -118.465811,
+        34.16968
+      ],
+      [
+        -118.478558,
+        34.16359
+      ],
+      [
+        -118.478558,
+        34.15141
+      ],
+      [
+        -118.465811,
+        34.14532
+      ],
+      [
+        -118.453064,
+        34.15141
+      ],
+      [
+        -118.453064,
+        34.16359
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 58,
+    "destination_count": 59,
+    "distinct_trajectories": 117,
+    "observation_count": 1783,
+    "within_cell_trips": 0,
+    "incoming_count": 59,
+    "outgoing_count": 58,
+    "median_duration": 2052.6,
+    "median_distance": 26940.6,
+    "mean_duration": 2080.2
+  },
+  {
+    "cell_id": "8729a0077ffdfff",
+    "resolution": 7,
+    "center_lat": 33.9685,
+    "center_lng": -118.465811,
+    "boundary": [
+      [
+        -118.453092,
+        33.97459
+      ],
+      [
+        -118.465811,
+        33.98068
+      ],
+      [
+        -118.478529,
+        33.97459
+      ],
+      [
+        -118.478529,
+        33.96241
+      ],
+      [
+        -118.465811,
+        33.95632
+      ],
+      [
+        -118.453092,
+        33.96241
+      ],
+      [
+        -118.453092,
+        33.97459
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 61,
+    "destination_count": 56,
+    "distinct_trajectories": 117,
+    "observation_count": 1777,
+    "within_cell_trips": 0,
+    "incoming_count": 56,
+    "outgoing_count": 61,
+    "median_duration": 1727.8,
+    "median_distance": 24395.0,
+    "mean_duration": 1671.9
+  },
+  {
+    "cell_id": "8729a0078012000",
+    "resolution": 7,
+    "center_lat": 34.0,
+    "center_lng": -118.224505,
+    "boundary": [
+      [
+        -118.211781,
+        34.00609
+      ],
+      [
+        -118.224505,
+        34.01218
+      ],
+      [
+        -118.237228,
+        34.00609
+      ],
+      [
+        -118.237228,
+        33.99391
+      ],
+      [
+        -118.224505,
+        33.98782
+      ],
+      [
+        -118.211781,
+        33.99391
+      ],
+      [
+        -118.211781,
+        34.00609
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 59,
+    "destination_count": 50,
+    "distinct_trajectories": 109,
+    "observation_count": 1819,
+    "within_cell_trips": 0,
+    "incoming_count": 50,
+    "outgoing_count": 59,
+    "median_duration": 1383.4,
+    "median_distance": 16803.2,
+    "mean_duration": 1422.4
+  },
+  {
+    "cell_id": "8729a0078006002",
+    "resolution": 7,
+    "center_lat": 34.063,
+    "center_lng": -118.312252,
+    "boundary": [
+      [
+        -118.299519,
+        34.06909
+      ],
+      [
+        -118.312252,
+        34.07518
+      ],
+      [
+        -118.324985,
+        34.06909
+      ],
+      [
+        -118.324985,
+        34.05691
+      ],
+      [
+        -118.312252,
+        34.05082
+      ],
+      [
+        -118.299519,
+        34.05691
+      ],
+      [
+        -118.299519,
+        34.06909
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 53,
+    "destination_count": 54,
+    "distinct_trajectories": 107,
+    "observation_count": 1625,
+    "within_cell_trips": 0,
+    "incoming_count": 54,
+    "outgoing_count": 53,
+    "median_duration": 941.7,
+    "median_distance": 12691.4,
+    "mean_duration": 1065.9
+  },
+  {
+    "cell_id": "8729a007800a000",
+    "resolution": 7,
+    "center_lat": 34.0,
+    "center_lng": -118.312252,
+    "boundary": [
+      [
+        -118.299529,
+        34.00609
+      ],
+      [
+        -118.312252,
+        34.01218
+      ],
+      [
+        -118.324976,
+        34.00609
+      ],
+      [
+        -118.324976,
+        33.99391
+      ],
+      [
+        -118.312252,
+        33.98782
+      ],
+      [
+        -118.299529,
+        33.99391
+      ],
+      [
+        -118.299529,
+        34.00609
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 33,
+    "destination_count": 27,
+    "distinct_trajectories": 60,
+    "observation_count": 1024,
+    "within_cell_trips": 0,
+    "incoming_count": 27,
+    "outgoing_count": 33,
+    "median_duration": 874.3,
+    "median_distance": 9274.5,
+    "mean_duration": 865.7
+  },
+  {
+    "cell_id": "8729a0078002000",
+    "resolution": 7,
+    "center_lat": 34.0,
+    "center_lng": -118.4,
+    "boundary": [
+      [
+        -118.387277,
+        34.00609
+      ],
+      [
+        -118.4,
+        34.01218
+      ],
+      [
+        -118.412723,
+        34.00609
+      ],
+      [
+        -118.412723,
+        33.99391
+      ],
+      [
+        -118.4,
+        33.98782
+      ],
+      [
+        -118.387277,
+        33.99391
+      ],
+      [
+        -118.387277,
+        34.00609
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 31,
+    "destination_count": 25,
+    "distinct_trajectories": 56,
+    "observation_count": 938,
+    "within_cell_trips": 0,
+    "incoming_count": 25,
+    "outgoing_count": 31,
+    "median_duration": 723.2,
+    "median_distance": 10562.9,
+    "mean_duration": 766.6
+  },
+  {
+    "cell_id": "8729a007800a001",
+    "resolution": 7,
+    "center_lat": 34.0315,
+    "center_lng": -118.290315,
+    "boundary": [
+      [
+        -118.277587,
+        34.03759
+      ],
+      [
+        -118.290315,
+        34.04368
+      ],
+      [
+        -118.303044,
+        34.03759
+      ],
+      [
+        -118.303044,
+        34.02541
+      ],
+      [
+        -118.290315,
+        34.01932
+      ],
+      [
+        -118.277587,
+        34.02541
+      ],
+      [
+        -118.277587,
+        34.03759
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 20,
+    "destination_count": 31,
+    "distinct_trajectories": 51,
+    "observation_count": 534,
+    "within_cell_trips": 0,
+    "incoming_count": 31,
+    "outgoing_count": 20,
+    "median_duration": 795.0,
+    "median_distance": 10884.0,
+    "mean_duration": 831.5
+  },
+  {
+    "cell_id": "8729a0078006001",
+    "resolution": 7,
+    "center_lat": 34.0315,
+    "center_lng": -118.334189,
+    "boundary": [
+      [
+        -118.321461,
+        34.03759
+      ],
+      [
+        -118.334189,
+        34.04368
+      ],
+      [
+        -118.346917,
+        34.03759
+      ],
+      [
+        -118.346917,
+        34.02541
+      ],
+      [
+        -118.334189,
+        34.01932
+      ],
+      [
+        -118.321461,
+        34.02541
+      ],
+      [
+        -118.321461,
+        34.03759
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 18,
+    "destination_count": 24,
+    "distinct_trajectories": 42,
+    "observation_count": 548,
+    "within_cell_trips": 0,
+    "incoming_count": 24,
+    "outgoing_count": 18,
+    "median_duration": 626.3,
+    "median_distance": 6638.4,
+    "mean_duration": 663.5
+  },
+  {
+    "cell_id": "8729a007800a002",
+    "resolution": 7,
+    "center_lat": 34.063,
+    "center_lng": -118.268378,
+    "boundary": [
+      [
+        -118.255646,
+        34.06909
+      ],
+      [
+        -118.268378,
+        34.07518
+      ],
+      [
+        -118.281111,
+        34.06909
+      ],
+      [
+        -118.281111,
+        34.05691
+      ],
+      [
+        -118.268378,
+        34.05082
+      ],
+      [
+        -118.255646,
+        34.05691
+      ],
+      [
+        -118.255646,
+        34.06909
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 18,
+    "destination_count": 19,
+    "distinct_trajectories": 37,
+    "observation_count": 530,
+    "within_cell_trips": 0,
+    "incoming_count": 19,
+    "outgoing_count": 18,
+    "median_duration": 268.6,
+    "median_distance": 3024.4,
+    "mean_duration": 319.2
+  },
+  {
+    "cell_id": "8729a0077ffe002",
+    "resolution": 7,
+    "center_lat": 34.063,
+    "center_lng": -118.4,
+    "boundary": [
+      [
+        -118.387267,
+        34.06909
+      ],
+      [
+        -118.4,
+        34.07518
+      ],
+      [
+        -118.412733,
+        34.06909
+      ],
+      [
+        -118.412733,
+        34.05691
+      ],
+      [
+        -118.4,
+        34.05082
+      ],
+      [
+        -118.387267,
+        34.05691
+      ],
+      [
+        -118.387267,
+        34.06909
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 17,
+    "destination_count": 20,
+    "distinct_trajectories": 37,
+    "observation_count": 555,
+    "within_cell_trips": 0,
+    "incoming_count": 20,
+    "outgoing_count": 17,
+    "median_duration": 1258.0,
+    "median_distance": 16813.0,
+    "mean_duration": 1240.6
+  },
+  {
+    "cell_id": "8729a0077ffa003",
+    "resolution": 7,
+    "center_lat": 34.0945,
+    "center_lng": -118.421937,
+    "boundary": [
+      [
+        -118.409199,
+        34.10059
+      ],
+      [
+        -118.421937,
+        34.10668
+      ],
+      [
+        -118.434675,
+        34.10059
+      ],
+      [
+        -118.434675,
+        34.08841
+      ],
+      [
+        -118.421937,
+        34.08232
+      ],
+      [
+        -118.409199,
+        34.08841
+      ],
+      [
+        -118.409199,
+        34.10059
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 23,
+    "destination_count": 13,
+    "distinct_trajectories": 36,
+    "observation_count": 671,
+    "within_cell_trips": 0,
+    "incoming_count": 13,
+    "outgoing_count": 23,
+    "median_duration": 708.4,
+    "median_distance": 9767.4,
+    "mean_duration": 716.2
+  },
+  {
+    "cell_id": "8729a0077ffe001",
+    "resolution": 7,
+    "center_lat": 34.0315,
+    "center_lng": -118.421937,
+    "boundary": [
+      [
+        -118.409209,
+        34.03759
+      ],
+      [
+        -118.421937,
+        34.04368
+      ],
+      [
+        -118.434665,
+        34.03759
+      ],
+      [
+        -118.434665,
+        34.02541
+      ],
+      [
+        -118.421937,
+        34.01932
+      ],
+      [
+        -118.409209,
+        34.02541
+      ],
+      [
+        -118.409209,
+        34.03759
+      ]
+    ],
+    "area_km2": 5.16,
+    "origin_count": 4,
+    "destination_count": 13,
+    "distinct_trajectories": 17,
+    "observation_count": 110,
+    "within_cell_trips": 0,
+    "incoming_count": 13,
+    "outgoing_count": 4,
+    "median_duration": 1200.3,
+    "median_distance": 14874.4,
+    "mean_duration": 1200.1
+  }
+]

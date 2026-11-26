@@ -1,0 +1,681 @@
+[
+  {
+    "region_id": "downtown-la",
+    "name": "Downtown Los Angeles",
+    "description": "Central business, cultural, and historic commercial core of metropolitan Los Angeles.",
+    "boundary_type": "polygon",
+    "center": [
+      -118.2518,
+      34.0488
+    ],
+    "bounding_box": {
+      "north": 34.068,
+      "south": 34.03,
+      "west": -118.275,
+      "east": -118.23
+    },
+    "total_origins": 352,
+    "total_destinations": 333,
+    "internal_trips": 0,
+    "incoming_trips": 333,
+    "outgoing_trips": 352,
+    "median_distance": 22435.5,
+    "median_duration": 1468.4,
+    "top_connected_regions": [
+      {
+        "region_id": "santa-monica",
+        "name": "Santa Monica",
+        "trip_count": 148
+      },
+      {
+        "region_id": "other-metropolitan",
+        "name": "other-metropolitan",
+        "trip_count": 82
+      },
+      {
+        "region_id": "hollywood",
+        "name": "Hollywood",
+        "trip_count": 67
+      },
+      {
+        "region_id": "venice",
+        "name": "Venice",
+        "trip_count": 28
+      },
+      {
+        "region_id": "south-la",
+        "name": "South Los Angeles",
+        "trip_count": 15
+      }
+    ],
+    "hourly_activity": [
+      34,
+      14,
+      13,
+      16,
+      18,
+      20,
+      17,
+      14,
+      31,
+      30,
+      31,
+      15,
+      12,
+      4,
+      4,
+      2,
+      3,
+      4,
+      2,
+      3,
+      3,
+      10,
+      20,
+      32
+    ]
+  },
+  {
+    "region_id": "hollywood",
+    "name": "Hollywood",
+    "description": "Entertainment hub, tourist corridor, and major east-west transit arterial connecting to Central LA.",
+    "boundary_type": "polygon",
+    "center": [
+      -118.3287,
+      34.1016
+    ],
+    "bounding_box": {
+      "north": 34.12,
+      "south": 34.085,
+      "west": -118.36,
+      "east": -118.3
+    },
+    "total_origins": 220,
+    "total_destinations": 230,
+    "internal_trips": 14,
+    "incoming_trips": 216,
+    "outgoing_trips": 206,
+    "median_distance": 13019.0,
+    "median_duration": 1206.9,
+    "top_connected_regions": [
+      {
+        "region_id": "other-metropolitan",
+        "name": "other-metropolitan",
+        "trip_count": 116
+      },
+      {
+        "region_id": "downtown-la",
+        "name": "Downtown Los Angeles",
+        "trip_count": 59
+      },
+      {
+        "region_id": "santa-monica",
+        "name": "Santa Monica",
+        "trip_count": 16
+      },
+      {
+        "region_id": "koreatown",
+        "name": "Koreatown",
+        "trip_count": 8
+      },
+      {
+        "region_id": "south-la",
+        "name": "South Los Angeles",
+        "trip_count": 5
+      }
+    ],
+    "hourly_activity": [
+      15,
+      9,
+      10,
+      7,
+      11,
+      9,
+      14,
+      12,
+      14,
+      17,
+      18,
+      11,
+      7,
+      4,
+      4,
+      3,
+      4,
+      2,
+      3,
+      3,
+      4,
+      11,
+      11,
+      17
+    ]
+  },
+  {
+    "region_id": "koreatown",
+    "name": "Koreatown",
+    "description": "High-density residential and commercial mixed-use urban district along Wilshire Boulevard.",
+    "boundary_type": "polygon",
+    "center": [
+      -118.3,
+      34.06
+    ],
+    "bounding_box": {
+      "north": 34.075,
+      "south": 34.045,
+      "west": -118.325,
+      "east": -118.28
+    },
+    "total_origins": 59,
+    "total_destinations": 61,
+    "internal_trips": 0,
+    "incoming_trips": 61,
+    "outgoing_trips": 59,
+    "median_distance": 12233.6,
+    "median_duration": 914.6,
+    "top_connected_regions": [
+      {
+        "region_id": "south-la",
+        "name": "South Los Angeles",
+        "trip_count": 19
+      },
+      {
+        "region_id": "other-metropolitan",
+        "name": "other-metropolitan",
+        "trip_count": 18
+      },
+      {
+        "region_id": "santa-monica",
+        "name": "Santa Monica",
+        "trip_count": 17
+      },
+      {
+        "region_id": "westwood",
+        "name": "Westwood & UCLA",
+        "trip_count": 4
+      },
+      {
+        "region_id": "hollywood",
+        "name": "Hollywood",
+        "trip_count": 1
+      }
+    ],
+    "hourly_activity": [
+      3,
+      2,
+      4,
+      2,
+      7,
+      2,
+      1,
+      4,
+      5,
+      6,
+      6,
+      2,
+      1,
+      1,
+      1,
+      0,
+      1,
+      2,
+      1,
+      1,
+      0,
+      2,
+      2,
+      3
+    ]
+  },
+  {
+    "region_id": "westwood",
+    "name": "Westwood & UCLA",
+    "description": "Major Westside educational and medical campus hub centered on Westwood Village and UCLA.",
+    "boundary_type": "polygon",
+    "center": [
+      -118.4452,
+      34.0689
+    ],
+    "bounding_box": {
+      "north": 34.085,
+      "south": 34.05,
+      "west": -118.465,
+      "east": -118.425
+    },
+    "total_origins": 101,
+    "total_destinations": 111,
+    "internal_trips": 0,
+    "incoming_trips": 111,
+    "outgoing_trips": 101,
+    "median_distance": 16232.2,
+    "median_duration": 1200.9,
+    "top_connected_regions": [
+      {
+        "region_id": "lax",
+        "name": "LAX Airport Corridor",
+        "trip_count": 66
+      },
+      {
+        "region_id": "other-metropolitan",
+        "name": "other-metropolitan",
+        "trip_count": 17
+      },
+      {
+        "region_id": "culver-city",
+        "name": "Culver City",
+        "trip_count": 9
+      },
+      {
+        "region_id": "hollywood",
+        "name": "Hollywood",
+        "trip_count": 5
+      },
+      {
+        "region_id": "koreatown",
+        "name": "Koreatown",
+        "trip_count": 3
+      }
+    ],
+    "hourly_activity": [
+      8,
+      4,
+      2,
+      5,
+      6,
+      7,
+      5,
+      4,
+      7,
+      7,
+      3,
+      8,
+      4,
+      2,
+      1,
+      0,
+      0,
+      2,
+      1,
+      1,
+      1,
+      2,
+      6,
+      15
+    ]
+  },
+  {
+    "region_id": "santa-monica",
+    "name": "Santa Monica",
+    "description": "Coastal employment center, tech hub, and major beachside destination at the western terminus of I-10.",
+    "boundary_type": "polygon",
+    "center": [
+      -118.4912,
+      34.0195
+    ],
+    "bounding_box": {
+      "north": 34.045,
+      "south": 33.995,
+      "west": -118.52,
+      "east": -118.46
+    },
+    "total_origins": 249,
+    "total_destinations": 259,
+    "internal_trips": 0,
+    "incoming_trips": 259,
+    "outgoing_trips": 249,
+    "median_distance": 23493.5,
+    "median_duration": 1631.2,
+    "top_connected_regions": [
+      {
+        "region_id": "downtown-la",
+        "name": "Downtown Los Angeles",
+        "trip_count": 139
+      },
+      {
+        "region_id": "lax",
+        "name": "LAX Airport Corridor",
+        "trip_count": 60
+      },
+      {
+        "region_id": "other-metropolitan",
+        "name": "other-metropolitan",
+        "trip_count": 20
+      },
+      {
+        "region_id": "hollywood",
+        "name": "Hollywood",
+        "trip_count": 14
+      },
+      {
+        "region_id": "venice",
+        "name": "Venice",
+        "trip_count": 5
+      }
+    ],
+    "hourly_activity": [
+      17,
+      13,
+      6,
+      13,
+      13,
+      9,
+      16,
+      16,
+      18,
+      13,
+      21,
+      11,
+      7,
+      3,
+      6,
+      3,
+      5,
+      1,
+      1,
+      3,
+      3,
+      10,
+      22,
+      19
+    ]
+  },
+  {
+    "region_id": "culver-city",
+    "name": "Culver City",
+    "description": "Westside creative media, studio production, and multimodal transit transfer nexus.",
+    "boundary_type": "polygon",
+    "center": [
+      -118.3965,
+      34.0211
+    ],
+    "bounding_box": {
+      "north": 34.04,
+      "south": 34.0,
+      "west": -118.425,
+      "east": -118.37
+    },
+    "total_origins": 95,
+    "total_destinations": 77,
+    "internal_trips": 11,
+    "incoming_trips": 66,
+    "outgoing_trips": 84,
+    "median_distance": 8735.2,
+    "median_duration": 764.5,
+    "top_connected_regions": [
+      {
+        "region_id": "other-metropolitan",
+        "name": "other-metropolitan",
+        "trip_count": 46
+      },
+      {
+        "region_id": "downtown-la",
+        "name": "Downtown Los Angeles",
+        "trip_count": 15
+      },
+      {
+        "region_id": "venice",
+        "name": "Venice",
+        "trip_count": 9
+      },
+      {
+        "region_id": "westwood",
+        "name": "Westwood & UCLA",
+        "trip_count": 9
+      },
+      {
+        "region_id": "santa-monica",
+        "name": "Santa Monica",
+        "trip_count": 5
+      }
+    ],
+    "hourly_activity": [
+      3,
+      5,
+      3,
+      5,
+      4,
+      3,
+      6,
+      9,
+      7,
+      9,
+      7,
+      5,
+      4,
+      2,
+      3,
+      0,
+      0,
+      0,
+      1,
+      1,
+      3,
+      2,
+      5,
+      8
+    ]
+  },
+  {
+    "region_id": "venice",
+    "name": "Venice",
+    "description": "Dense coastal neighborhood featuring vibrant cultural activity, beachfront boardwalk, and Silicon Beach offices.",
+    "boundary_type": "polygon",
+    "center": [
+      -118.4695,
+      33.985
+    ],
+    "bounding_box": {
+      "north": 34.005,
+      "south": 33.97,
+      "west": -118.49,
+      "east": -118.445
+    },
+    "total_origins": 61,
+    "total_destinations": 56,
+    "internal_trips": 0,
+    "incoming_trips": 56,
+    "outgoing_trips": 61,
+    "median_distance": 24395.0,
+    "median_duration": 1727.8,
+    "top_connected_regions": [
+      {
+        "region_id": "downtown-la",
+        "name": "Downtown Los Angeles",
+        "trip_count": 44
+      },
+      {
+        "region_id": "lax",
+        "name": "LAX Airport Corridor",
+        "trip_count": 6
+      },
+      {
+        "region_id": "culver-city",
+        "name": "Culver City",
+        "trip_count": 6
+      },
+      {
+        "region_id": "other-metropolitan",
+        "name": "other-metropolitan",
+        "trip_count": 5
+      }
+    ],
+    "hourly_activity": [
+      1,
+      2,
+      2,
+      7,
+      2,
+      2,
+      0,
+      5,
+      8,
+      9,
+      5,
+      2,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      2,
+      1,
+      1,
+      3,
+      6
+    ]
+  },
+  {
+    "region_id": "lax",
+    "name": "LAX Airport Corridor",
+    "description": "Los Angeles International Airport terminal complex and surrounding hotel and logistics corridors.",
+    "boundary_type": "polygon",
+    "center": [
+      -118.4085,
+      33.9416
+    ],
+    "bounding_box": {
+      "north": 33.96,
+      "south": 33.925,
+      "west": -118.44,
+      "east": -118.38
+    },
+    "total_origins": 204,
+    "total_destinations": 216,
+    "internal_trips": 1,
+    "incoming_trips": 215,
+    "outgoing_trips": 203,
+    "median_distance": 16572.3,
+    "median_duration": 1437.5,
+    "top_connected_regions": [
+      {
+        "region_id": "other-metropolitan",
+        "name": "other-metropolitan",
+        "trip_count": 72
+      },
+      {
+        "region_id": "westwood",
+        "name": "Westwood & UCLA",
+        "trip_count": 67
+      },
+      {
+        "region_id": "santa-monica",
+        "name": "Santa Monica",
+        "trip_count": 48
+      },
+      {
+        "region_id": "venice",
+        "name": "Venice",
+        "trip_count": 7
+      },
+      {
+        "region_id": "culver-city",
+        "name": "Culver City",
+        "trip_count": 6
+      }
+    ],
+    "hourly_activity": [
+      17,
+      11,
+      10,
+      13,
+      11,
+      5,
+      8,
+      11,
+      15,
+      10,
+      21,
+      9,
+      8,
+      3,
+      4,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      8,
+      12,
+      21
+    ]
+  },
+  {
+    "region_id": "south-la",
+    "name": "South Los Angeles",
+    "description": "Expansive residential and mixed corridor south of I-10, connecting Downtown LA to the Harbor area.",
+    "boundary_type": "polygon",
+    "center": [
+      -118.28,
+      33.99
+    ],
+    "bounding_box": {
+      "north": 34.02,
+      "south": 33.95,
+      "west": -118.31,
+      "east": -118.25
+    },
+    "total_origins": 164,
+    "total_destinations": 178,
+    "internal_trips": 29,
+    "incoming_trips": 149,
+    "outgoing_trips": 135,
+    "median_distance": 10830.5,
+    "median_duration": 899.1,
+    "top_connected_regions": [
+      {
+        "region_id": "other-metropolitan",
+        "name": "other-metropolitan",
+        "trip_count": 94
+      },
+      {
+        "region_id": "koreatown",
+        "name": "Koreatown",
+        "trip_count": 20
+      },
+      {
+        "region_id": "hollywood",
+        "name": "Hollywood",
+        "trip_count": 8
+      },
+      {
+        "region_id": "downtown-la",
+        "name": "Downtown Los Angeles",
+        "trip_count": 7
+      },
+      {
+        "region_id": "lax",
+        "name": "LAX Airport Corridor",
+        "trip_count": 6
+      }
+    ],
+    "hourly_activity": [
+      15,
+      4,
+      5,
+      13,
+      11,
+      7,
+      9,
+      16,
+      11,
+      11,
+      7,
+      5,
+      6,
+      4,
+      1,
+      3,
+      3,
+      0,
+      0,
+      1,
+      2,
+      9,
+      9,
+      12
+    ]
+  }
+]

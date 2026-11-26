@@ -1,0 +1,968 @@
+{
+  "duration": {
+    "count": 2500,
+    "mean": 1325.7,
+    "std_dev": 678.94,
+    "min": 99.5,
+    "max": 3854.9,
+    "p10": 509.86,
+    "p25": 800.27,
+    "p50": 1251.75,
+    "p75": 1718.6,
+    "p90": 2245.39,
+    "p95": 2610.88,
+    "p99": 3204.41,
+    "bins": [
+      {
+        "bin_start": 99.5,
+        "bin_end": 224.68,
+        "count": 38,
+        "share": 0.0152
+      },
+      {
+        "bin_start": 224.68,
+        "bin_end": 349.86,
+        "count": 87,
+        "share": 0.0348
+      },
+      {
+        "bin_start": 349.86,
+        "bin_end": 475.04,
+        "count": 100,
+        "share": 0.04
+      },
+      {
+        "bin_start": 475.04,
+        "bin_end": 600.22,
+        "count": 115,
+        "share": 0.046
+      },
+      {
+        "bin_start": 600.22,
+        "bin_end": 725.4,
+        "count": 173,
+        "share": 0.0692
+      },
+      {
+        "bin_start": 725.4,
+        "bin_end": 850.58,
+        "count": 172,
+        "share": 0.0688
+      },
+      {
+        "bin_start": 850.58,
+        "bin_end": 975.76,
+        "count": 157,
+        "share": 0.0628
+      },
+      {
+        "bin_start": 975.76,
+        "bin_end": 1100.94,
+        "count": 187,
+        "share": 0.0748
+      },
+      {
+        "bin_start": 1100.94,
+        "bin_end": 1226.12,
+        "count": 185,
+        "share": 0.074
+      },
+      {
+        "bin_start": 1226.12,
+        "bin_end": 1351.3,
+        "count": 166,
+        "share": 0.0664
+      },
+      {
+        "bin_start": 1351.3,
+        "bin_end": 1476.48,
+        "count": 188,
+        "share": 0.0752
+      },
+      {
+        "bin_start": 1476.48,
+        "bin_end": 1601.66,
+        "count": 174,
+        "share": 0.0696
+      },
+      {
+        "bin_start": 1601.66,
+        "bin_end": 1726.84,
+        "count": 142,
+        "share": 0.0568
+      },
+      {
+        "bin_start": 1726.84,
+        "bin_end": 1852.02,
+        "count": 111,
+        "share": 0.0444
+      },
+      {
+        "bin_start": 1852.02,
+        "bin_end": 1977.2,
+        "count": 96,
+        "share": 0.0384
+      },
+      {
+        "bin_start": 1977.2,
+        "bin_end": 2102.38,
+        "count": 88,
+        "share": 0.0352
+      },
+      {
+        "bin_start": 2102.38,
+        "bin_end": 2227.56,
+        "count": 59,
+        "share": 0.0236
+      },
+      {
+        "bin_start": 2227.56,
+        "bin_end": 2352.74,
+        "count": 46,
+        "share": 0.0184
+      },
+      {
+        "bin_start": 2352.74,
+        "bin_end": 2477.92,
+        "count": 43,
+        "share": 0.0172
+      },
+      {
+        "bin_start": 2477.92,
+        "bin_end": 2603.1,
+        "count": 44,
+        "share": 0.0176
+      },
+      {
+        "bin_start": 2603.1,
+        "bin_end": 2728.28,
+        "count": 32,
+        "share": 0.0128
+      },
+      {
+        "bin_start": 2728.28,
+        "bin_end": 2853.46,
+        "count": 28,
+        "share": 0.0112
+      },
+      {
+        "bin_start": 2853.46,
+        "bin_end": 2978.64,
+        "count": 16,
+        "share": 0.0064
+      },
+      {
+        "bin_start": 2978.64,
+        "bin_end": 3103.82,
+        "count": 18,
+        "share": 0.0072
+      },
+      {
+        "bin_start": 3103.82,
+        "bin_end": 3229.0,
+        "count": 11,
+        "share": 0.0044
+      },
+      {
+        "bin_start": 3229.0,
+        "bin_end": 3354.18,
+        "count": 9,
+        "share": 0.0036
+      },
+      {
+        "bin_start": 3354.18,
+        "bin_end": 3479.36,
+        "count": 9,
+        "share": 0.0036
+      },
+      {
+        "bin_start": 3479.36,
+        "bin_end": 3604.54,
+        "count": 3,
+        "share": 0.0012
+      },
+      {
+        "bin_start": 3604.54,
+        "bin_end": 3729.72,
+        "count": 1,
+        "share": 0.0004
+      },
+      {
+        "bin_start": 3729.72,
+        "bin_end": 3854.9,
+        "count": 2,
+        "share": 0.0008
+      }
+    ]
+  },
+  "distance": {
+    "count": 2500,
+    "mean": 15662.09,
+    "std_dev": 6830.49,
+    "min": 1541.7,
+    "max": 29523.5,
+    "p10": 6171.05,
+    "p25": 10378.55,
+    "p50": 16133.0,
+    "p75": 21078.3,
+    "p90": 25366.67,
+    "p95": 26546.46,
+    "p99": 28613.06,
+    "bins": [
+      {
+        "bin_start": 1541.7,
+        "bin_end": 2474.43,
+        "count": 10,
+        "share": 0.004
+      },
+      {
+        "bin_start": 2474.43,
+        "bin_end": 3407.15,
+        "count": 62,
+        "share": 0.0248
+      },
+      {
+        "bin_start": 3407.15,
+        "bin_end": 4339.88,
+        "count": 34,
+        "share": 0.0136
+      },
+      {
+        "bin_start": 4339.88,
+        "bin_end": 5272.61,
+        "count": 60,
+        "share": 0.024
+      },
+      {
+        "bin_start": 5272.61,
+        "bin_end": 6205.33,
+        "count": 87,
+        "share": 0.0348
+      },
+      {
+        "bin_start": 6205.33,
+        "bin_end": 7138.06,
+        "count": 75,
+        "share": 0.03
+      },
+      {
+        "bin_start": 7138.06,
+        "bin_end": 8070.79,
+        "count": 59,
+        "share": 0.0236
+      },
+      {
+        "bin_start": 8070.79,
+        "bin_end": 9003.51,
+        "count": 86,
+        "share": 0.0344
+      },
+      {
+        "bin_start": 9003.51,
+        "bin_end": 9936.24,
+        "count": 71,
+        "share": 0.0284
+      },
+      {
+        "bin_start": 9936.24,
+        "bin_end": 10868.97,
+        "count": 171,
+        "share": 0.0684
+      },
+      {
+        "bin_start": 10868.97,
+        "bin_end": 11801.69,
+        "count": 121,
+        "share": 0.0484
+      },
+      {
+        "bin_start": 11801.69,
+        "bin_end": 12734.42,
+        "count": 59,
+        "share": 0.0236
+      },
+      {
+        "bin_start": 12734.42,
+        "bin_end": 13667.15,
+        "count": 123,
+        "share": 0.0492
+      },
+      {
+        "bin_start": 13667.15,
+        "bin_end": 14599.87,
+        "count": 106,
+        "share": 0.0424
+      },
+      {
+        "bin_start": 14599.87,
+        "bin_end": 15532.6,
+        "count": 48,
+        "share": 0.0192
+      },
+      {
+        "bin_start": 15532.6,
+        "bin_end": 16465.33,
+        "count": 147,
+        "share": 0.0588
+      },
+      {
+        "bin_start": 16465.33,
+        "bin_end": 17398.05,
+        "count": 184,
+        "share": 0.0736
+      },
+      {
+        "bin_start": 17398.05,
+        "bin_end": 18330.78,
+        "count": 167,
+        "share": 0.0668
+      },
+      {
+        "bin_start": 18330.78,
+        "bin_end": 19263.51,
+        "count": 55,
+        "share": 0.022
+      },
+      {
+        "bin_start": 19263.51,
+        "bin_end": 20196.23,
+        "count": 59,
+        "share": 0.0236
+      },
+      {
+        "bin_start": 20196.23,
+        "bin_end": 21128.96,
+        "count": 94,
+        "share": 0.0376
+      },
+      {
+        "bin_start": 21128.96,
+        "bin_end": 22061.69,
+        "count": 93,
+        "share": 0.0372
+      },
+      {
+        "bin_start": 22061.69,
+        "bin_end": 22994.41,
+        "count": 77,
+        "share": 0.0308
+      },
+      {
+        "bin_start": 22994.41,
+        "bin_end": 23927.14,
+        "count": 58,
+        "share": 0.0232
+      },
+      {
+        "bin_start": 23927.14,
+        "bin_end": 24859.87,
+        "count": 89,
+        "share": 0.0356
+      },
+      {
+        "bin_start": 24859.87,
+        "bin_end": 25792.59,
+        "count": 101,
+        "share": 0.0404
+      },
+      {
+        "bin_start": 25792.59,
+        "bin_end": 26725.32,
+        "count": 92,
+        "share": 0.0368
+      },
+      {
+        "bin_start": 26725.32,
+        "bin_end": 27658.05,
+        "count": 58,
+        "share": 0.0232
+      },
+      {
+        "bin_start": 27658.05,
+        "bin_end": 28590.77,
+        "count": 28,
+        "share": 0.0112
+      },
+      {
+        "bin_start": 28590.77,
+        "bin_end": 29523.5,
+        "count": 26,
+        "share": 0.0104
+      }
+    ]
+  },
+  "average_speed": {
+    "count": 2500,
+    "mean": 45.05,
+    "std_dev": 10.53,
+    "min": 27.02,
+    "max": 63.0,
+    "p10": 30.56,
+    "p25": 35.84,
+    "p50": 44.85,
+    "p75": 54.34,
+    "p90": 59.65,
+    "p95": 61.31,
+    "p99": 62.62,
+    "bins": [
+      {
+        "bin_start": 27.02,
+        "bin_end": 28.46,
+        "count": 95,
+        "share": 0.038
+      },
+      {
+        "bin_start": 28.46,
+        "bin_end": 29.9,
+        "count": 103,
+        "share": 0.0412
+      },
+      {
+        "bin_start": 29.9,
+        "bin_end": 31.34,
+        "count": 113,
+        "share": 0.0452
+      },
+      {
+        "bin_start": 31.34,
+        "bin_end": 32.78,
+        "count": 102,
+        "share": 0.0408
+      },
+      {
+        "bin_start": 32.78,
+        "bin_end": 34.22,
+        "count": 119,
+        "share": 0.0476
+      },
+      {
+        "bin_start": 34.22,
+        "bin_end": 35.66,
+        "count": 87,
+        "share": 0.0348
+      },
+      {
+        "bin_start": 35.66,
+        "bin_end": 37.1,
+        "count": 86,
+        "share": 0.0344
+      },
+      {
+        "bin_start": 37.1,
+        "bin_end": 38.54,
+        "count": 84,
+        "share": 0.0336
+      },
+      {
+        "bin_start": 38.54,
+        "bin_end": 39.98,
+        "count": 126,
+        "share": 0.0504
+      },
+      {
+        "bin_start": 39.98,
+        "bin_end": 41.42,
+        "count": 104,
+        "share": 0.0416
+      },
+      {
+        "bin_start": 41.42,
+        "bin_end": 42.85,
+        "count": 93,
+        "share": 0.0372
+      },
+      {
+        "bin_start": 42.85,
+        "bin_end": 44.29,
+        "count": 89,
+        "share": 0.0356
+      },
+      {
+        "bin_start": 44.29,
+        "bin_end": 45.73,
+        "count": 106,
+        "share": 0.0424
+      },
+      {
+        "bin_start": 45.73,
+        "bin_end": 47.17,
+        "count": 93,
+        "share": 0.0372
+      },
+      {
+        "bin_start": 47.17,
+        "bin_end": 48.61,
+        "count": 88,
+        "share": 0.0352
+      },
+      {
+        "bin_start": 48.61,
+        "bin_end": 50.05,
+        "count": 95,
+        "share": 0.038
+      },
+      {
+        "bin_start": 50.05,
+        "bin_end": 51.49,
+        "count": 95,
+        "share": 0.038
+      },
+      {
+        "bin_start": 51.49,
+        "bin_end": 52.93,
+        "count": 89,
+        "share": 0.0356
+      },
+      {
+        "bin_start": 52.93,
+        "bin_end": 54.37,
+        "count": 112,
+        "share": 0.0448
+      },
+      {
+        "bin_start": 54.37,
+        "bin_end": 55.81,
+        "count": 99,
+        "share": 0.0396
+      },
+      {
+        "bin_start": 55.81,
+        "bin_end": 57.25,
+        "count": 98,
+        "share": 0.0392
+      },
+      {
+        "bin_start": 57.25,
+        "bin_end": 58.68,
+        "count": 95,
+        "share": 0.038
+      },
+      {
+        "bin_start": 58.68,
+        "bin_end": 60.12,
+        "count": 125,
+        "share": 0.05
+      },
+      {
+        "bin_start": 60.12,
+        "bin_end": 61.56,
+        "count": 91,
+        "share": 0.0364
+      },
+      {
+        "bin_start": 61.56,
+        "bin_end": 63.0,
+        "count": 113,
+        "share": 0.0452
+      }
+    ]
+  },
+  "displacement_ratio": {
+    "count": 2500,
+    "mean": 0.86,
+    "std_dev": 0.04,
+    "min": 0.8,
+    "max": 0.93,
+    "p10": 0.81,
+    "p25": 0.83,
+    "p50": 0.86,
+    "p75": 0.89,
+    "p90": 0.91,
+    "p95": 0.92,
+    "p99": 0.92,
+    "bins": [
+      {
+        "bin_start": 0.8,
+        "bin_end": 0.81,
+        "count": 140,
+        "share": 0.056
+      },
+      {
+        "bin_start": 0.81,
+        "bin_end": 0.81,
+        "count": 132,
+        "share": 0.0528
+      },
+      {
+        "bin_start": 0.81,
+        "bin_end": 0.82,
+        "count": 142,
+        "share": 0.0568
+      },
+      {
+        "bin_start": 0.82,
+        "bin_end": 0.83,
+        "count": 124,
+        "share": 0.0496
+      },
+      {
+        "bin_start": 0.83,
+        "bin_end": 0.83,
+        "count": 139,
+        "share": 0.0556
+      },
+      {
+        "bin_start": 0.83,
+        "bin_end": 0.84,
+        "count": 131,
+        "share": 0.0524
+      },
+      {
+        "bin_start": 0.84,
+        "bin_end": 0.84,
+        "count": 143,
+        "share": 0.0572
+      },
+      {
+        "bin_start": 0.84,
+        "bin_end": 0.85,
+        "count": 131,
+        "share": 0.0524
+      },
+      {
+        "bin_start": 0.85,
+        "bin_end": 0.86,
+        "count": 116,
+        "share": 0.0464
+      },
+      {
+        "bin_start": 0.86,
+        "bin_end": 0.86,
+        "count": 123,
+        "share": 0.0492
+      },
+      {
+        "bin_start": 0.86,
+        "bin_end": 0.87,
+        "count": 124,
+        "share": 0.0496
+      },
+      {
+        "bin_start": 0.87,
+        "bin_end": 0.88,
+        "count": 131,
+        "share": 0.0524
+      },
+      {
+        "bin_start": 0.88,
+        "bin_end": 0.88,
+        "count": 112,
+        "share": 0.0448
+      },
+      {
+        "bin_start": 0.88,
+        "bin_end": 0.89,
+        "count": 117,
+        "share": 0.0468
+      },
+      {
+        "bin_start": 0.89,
+        "bin_end": 0.89,
+        "count": 119,
+        "share": 0.0476
+      },
+      {
+        "bin_start": 0.89,
+        "bin_end": 0.9,
+        "count": 138,
+        "share": 0.0552
+      },
+      {
+        "bin_start": 0.9,
+        "bin_end": 0.91,
+        "count": 98,
+        "share": 0.0392
+      },
+      {
+        "bin_start": 0.91,
+        "bin_end": 0.91,
+        "count": 108,
+        "share": 0.0432
+      },
+      {
+        "bin_start": 0.91,
+        "bin_end": 0.92,
+        "count": 113,
+        "share": 0.0452
+      },
+      {
+        "bin_start": 0.92,
+        "bin_end": 0.93,
+        "count": 119,
+        "share": 0.0476
+      }
+    ]
+  },
+  "joint_density": [
+    {
+      "distance_bin": 0,
+      "duration_bin": 0,
+      "count": 17,
+      "density": 0.0068
+    },
+    {
+      "distance_bin": 0,
+      "duration_bin": 1,
+      "count": 1,
+      "density": 0.0004
+    },
+    {
+      "distance_bin": 1,
+      "duration_bin": 0,
+      "count": 89,
+      "density": 0.0356
+    },
+    {
+      "distance_bin": 1,
+      "duration_bin": 1,
+      "count": 94,
+      "density": 0.0376
+    },
+    {
+      "distance_bin": 1,
+      "duration_bin": 2,
+      "count": 10,
+      "density": 0.004
+    },
+    {
+      "distance_bin": 2,
+      "duration_bin": 1,
+      "count": 131,
+      "density": 0.0524
+    },
+    {
+      "distance_bin": 2,
+      "duration_bin": 2,
+      "count": 86,
+      "density": 0.0344
+    },
+    {
+      "distance_bin": 2,
+      "duration_bin": 3,
+      "count": 8,
+      "density": 0.0032
+    },
+    {
+      "distance_bin": 3,
+      "duration_bin": 1,
+      "count": 59,
+      "density": 0.0236
+    },
+    {
+      "distance_bin": 3,
+      "duration_bin": 2,
+      "count": 198,
+      "density": 0.0792
+    },
+    {
+      "distance_bin": 3,
+      "duration_bin": 3,
+      "count": 92,
+      "density": 0.0368
+    },
+    {
+      "distance_bin": 3,
+      "duration_bin": 4,
+      "count": 26,
+      "density": 0.0104
+    },
+    {
+      "distance_bin": 4,
+      "duration_bin": 2,
+      "count": 114,
+      "density": 0.0456
+    },
+    {
+      "distance_bin": 4,
+      "duration_bin": 3,
+      "count": 97,
+      "density": 0.0388
+    },
+    {
+      "distance_bin": 4,
+      "duration_bin": 4,
+      "count": 56,
+      "density": 0.0224
+    },
+    {
+      "distance_bin": 4,
+      "duration_bin": 5,
+      "count": 14,
+      "density": 0.0056
+    },
+    {
+      "distance_bin": 5,
+      "duration_bin": 2,
+      "count": 26,
+      "density": 0.0104
+    },
+    {
+      "distance_bin": 5,
+      "duration_bin": 3,
+      "count": 147,
+      "density": 0.0588
+    },
+    {
+      "distance_bin": 5,
+      "duration_bin": 4,
+      "count": 103,
+      "density": 0.0412
+    },
+    {
+      "distance_bin": 5,
+      "duration_bin": 5,
+      "count": 48,
+      "density": 0.0192
+    },
+    {
+      "distance_bin": 5,
+      "duration_bin": 6,
+      "count": 33,
+      "density": 0.0132
+    },
+    {
+      "distance_bin": 6,
+      "duration_bin": 3,
+      "count": 106,
+      "density": 0.0424
+    },
+    {
+      "distance_bin": 6,
+      "duration_bin": 4,
+      "count": 85,
+      "density": 0.034
+    },
+    {
+      "distance_bin": 6,
+      "duration_bin": 5,
+      "count": 63,
+      "density": 0.0252
+    },
+    {
+      "distance_bin": 6,
+      "duration_bin": 6,
+      "count": 45,
+      "density": 0.018
+    },
+    {
+      "distance_bin": 6,
+      "duration_bin": 7,
+      "count": 15,
+      "density": 0.006
+    },
+    {
+      "distance_bin": 7,
+      "duration_bin": 3,
+      "count": 19,
+      "density": 0.0076
+    },
+    {
+      "distance_bin": 7,
+      "duration_bin": 4,
+      "count": 98,
+      "density": 0.0392
+    },
+    {
+      "distance_bin": 7,
+      "duration_bin": 5,
+      "count": 63,
+      "density": 0.0252
+    },
+    {
+      "distance_bin": 7,
+      "duration_bin": 6,
+      "count": 44,
+      "density": 0.0176
+    },
+    {
+      "distance_bin": 7,
+      "duration_bin": 7,
+      "count": 31,
+      "density": 0.0124
+    },
+    {
+      "distance_bin": 7,
+      "duration_bin": 8,
+      "count": 20,
+      "density": 0.008
+    },
+    {
+      "distance_bin": 7,
+      "duration_bin": 9,
+      "count": 2,
+      "density": 0.0008
+    },
+    {
+      "distance_bin": 8,
+      "duration_bin": 4,
+      "count": 69,
+      "density": 0.0276
+    },
+    {
+      "distance_bin": 8,
+      "duration_bin": 5,
+      "count": 59,
+      "density": 0.0236
+    },
+    {
+      "distance_bin": 8,
+      "duration_bin": 6,
+      "count": 38,
+      "density": 0.0152
+    },
+    {
+      "distance_bin": 8,
+      "duration_bin": 7,
+      "count": 36,
+      "density": 0.0144
+    },
+    {
+      "distance_bin": 8,
+      "duration_bin": 8,
+      "count": 30,
+      "density": 0.012
+    },
+    {
+      "distance_bin": 8,
+      "duration_bin": 9,
+      "count": 23,
+      "density": 0.0092
+    },
+    {
+      "distance_bin": 9,
+      "duration_bin": 4,
+      "count": 11,
+      "density": 0.0044
+    },
+    {
+      "distance_bin": 9,
+      "duration_bin": 5,
+      "count": 58,
+      "density": 0.0232
+    },
+    {
+      "distance_bin": 9,
+      "duration_bin": 6,
+      "count": 41,
+      "density": 0.0164
+    },
+    {
+      "distance_bin": 9,
+      "duration_bin": 7,
+      "count": 31,
+      "density": 0.0124
+    },
+    {
+      "distance_bin": 9,
+      "duration_bin": 8,
+      "count": 25,
+      "density": 0.01
+    },
+    {
+      "distance_bin": 9,
+      "duration_bin": 9,
+      "count": 39,
+      "density": 0.0156
+    }
+  ]
+}
