@@ -1,0 +1,20 @@
+name = "la-mobility-atlas"
+compatibility_date = "2024-04-01"
+main = "services/api/src/index.js"
+
+# Serve statically exported Next.js frontend assets directly from Cloudflare's edge CDN
+[assets]
+directory = "apps/web/out"
+binding = "ASSETS"
+html_handling = "auto-trailing-slash"
+not_found_handling = "single-page-application"
+
+# Cloudflare R2 bucket binding for large GeoParquet and PMTiles artifacts
+[[r2_buckets]]
+binding = "DATA_BUCKET"
+bucket_name = "la-mobility-atlas-data"
+
+[vars]
+ENVIRONMENT = "production"
+API_VERSION = "v1"
+DATA_RELEASE = "rel-2019-12-v1"
