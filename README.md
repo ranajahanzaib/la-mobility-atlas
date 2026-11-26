@@ -2,6 +2,8 @@
 
 > **An interactive scientific exploration platform for investigating synthetic vehicle mobility patterns across metropolitan Los Angeles.**
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-la--mobility--atlas.r4na.workers.dev-success?style=for-the-badge&logo=cloudflare&logoColor=white)](https://la-mobility-atlas.r4na.workers.dev)
+
 [![CI](https://github.com/ranajahanzaib/la-mobility-atlas/actions/workflows/ci.yml/badge.svg)](https://github.com/ranajahanzaib/la-mobility-atlas/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Dataset DOI](https://img.shields.io/badge/DOI-10.5061%2Fdryad.4j0zpc8gf-blue)](https://doi.org/10.5061/dryad.4j0zpc8gf)
@@ -9,6 +11,14 @@
 [![Next.js](https://img.shields.io/badge/Next.js-16.4-black)](apps/web/)
 [![deck.gl](https://img.shields.io/badge/deck.gl-9.4-red)](apps/web/)
 [![H3](https://img.shields.io/badge/H3-spatial--indexing-orange)](pipelines/mobility/)
+
+---
+
+<p align="center">
+  <a href="https://la-mobility-atlas.r4na.workers.dev">
+    <strong>Explore the Live Platform &rarr; https://la-mobility-atlas.r4na.workers.dev</strong>
+  </a>
+</p>
 
 ---
 
