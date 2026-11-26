@@ -1,0 +1,29 @@
+{
+  "name": "la-mobility-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive scientific exploration platform for investigating synthetic vehicle mobility patterns across metropolitan Los Angeles.",
+  "scripts": {
+    "dev": "pnpm --filter @la-mobility-atlas/web dev",
+    "build": "pnpm --filter @la-mobility-atlas/* build",
+    "lint": "pnpm --filter @la-mobility-atlas/* lint",
+    "typecheck": "pnpm --filter @la-mobility-atlas/* typecheck",
+    "test": "pnpm --filter @la-mobility-atlas/* test",
+    "test:e2e": "pnpm --filter @la-mobility-atlas/web test:e2e",
+    "data:download": "cd pipelines/mobility && python3 -m mobility.ingestion.download",
+    "data:validate": "cd pipelines/mobility && python3 -m mobility.validation.validator",
+    "data:prepare": "cd pipelines/mobility && python3 -m mobility.normalization.normalizer",
+    "data:sample": "cd pipelines/mobility && python3 -m mobility.ingestion.sample",
+    "data:aggregate": "cd pipelines/mobility && python3 -m mobility.aggregation.aggregator",
+    "data:tiles": "cd pipelines/mobility && python3 -m mobility.tiles.builder",
+    "data:publish": "cd pipelines/mobility && python3 -m mobility.publishing.publisher",
+    "api:dev": "cd services/api && cargo run",
+    "api:build": "cd services/api && cargo build --release",
+    "deploy": "bash scripts/deploy.sh"
+  },
+  "packageManager": "pnpm@12.3.4",
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.5",
+    "tailwindcss": "^4.3.5"
+  }
+}

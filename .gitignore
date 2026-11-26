@@ -1,76 +1,83 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# ==========================================================
+# LA Mobility Atlas - Git Ignore Configuration
+# ==========================================================
 
-# Dependencies
-node_modules
-test/node_modules
-.pnp
+# 1. Package Managers & Node.js Dependencies
+node_modules/
+.pnpm-store/
+.pnp/
 .pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
 
-# Testing
-coverage
-.nyc_output
-test/**/out*
-test/**/next-env.d.ts
-.DS_Store
-e2e-tests
-test/tmp/**
-
-
-# Production
-build
-dist
-.next
-target
-.out
-
-# Editors
-**/.idea
-**/.#*
-
-# Examples
-examples/**/out
-examples/**/.env*.local
-
-pr-stats.md
-test-timings.json
-
-# Vercel
-.vercel
-.now
-
-# Cache
+# 2. Frontend & Next.js Build Outputs
+.next/
+out/
+build/
+dist/
+.turbo/
 *.tsbuildinfo
+coverage/
+.nyc_output/
 
-# Misc
-.DS_Store
+# 3. Rust & Cargo Artifacts
+target/
+**/*.rs.bk
+
+# 4. Python Environment & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# 5. Cloudflare Workers & Serverless Tooling
+.wrangler/
+.mf/
+
+# 6. Large Datasets, Raw Downloads, & Staging Storage
+# (Never commit multi-gigabyte research trajectories or temporary DuckDB tables)
+data/raw/
+data/staging/
+*.parquet
+*.geoparquet
+*.pmtiles
+*.duckdb
+*.duckdb.tmp
+*.tar.gz
+*.zip
+
+# Keep sample fixture JSONs and release metadata committed
+!data/fixtures/
+!data/processed/releases/
+
+# 7. Environment & Secrets
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
+!.env.example
 
-# Logs
-*.log
-pids
-*.cpuprofile
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-
-# Firebase
-.firebase
-
-# Flutter
-.dart_tool
-.idea
-.pub-cache
-.packages
-
-# Comment following line if you'd like to commit and push google-services.json to GitHub
-*google-services.json
-
-# Python
-venv
+# 8. Operating System & IDEs
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
 
 PLAN.md
