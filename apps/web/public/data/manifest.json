@@ -1,0 +1,52 @@
+{
+  "release_id": "rel-2019-12-v1",
+  "source_name": "Synthetic vehicle trajectory dataset for the metropolitan city of Los Angeles using DDTG",
+  "doi": "10.5061/dryad.4j0zpc8gf",
+  "zenodo_record": 7391400,
+  "generated_at": "2026-11-26T10:12:37.024744Z",
+  "schema_version": "1.0.0",
+  "processing_version": "1.0.0",
+  "supported_h3_resolutions": [
+    6,
+    7,
+    8
+  ],
+  "overview": {
+    "release_id": "rel-2019-12-v1",
+    "total_trajectories": 2500,
+    "total_observations": 76144,
+    "coverage_start": "2019-12-01T00:00:00Z",
+    "coverage_end": "2019-12-14T23:59:59Z",
+    "median_duration_seconds": 1251.75,
+    "median_distance_meters": 16133.0,
+    "peak_departure_hour": 23,
+    "active_origin_cells": 30,
+    "active_destination_cells": 30,
+    "bounding_box": {
+      "north": 34.335035,
+      "south": 33.69982,
+      "west": -118.667665,
+      "east": -118.180532
+    },
+    "validation_report": {
+      "validation_timestamp": "2026-11-26T10:12:36.611611Z",
+      "metadata_total": 2500,
+      "metadata_valid": 2500,
+      "metadata_quarantined": 0,
+      "observations_total": 76144,
+      "observations_valid": 76144,
+      "observations_quarantined": 0,
+      "reasons": {}
+    }
+  },
+  "artifacts": {
+    "manifest": "manifest.json",
+    "overview": "overview.json",
+    "cells": "cells.json",
+    "flows": "flows.json",
+    "temporal": "temporal.json",
+    "distributions": "distributions.json",
+    "regions": "regions.json",
+    "playback_manifest": "playback/manifest.json"
+  }
+}

@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #080d14;
+    --map-background: #0b1420;
+    --panel-background: #101923;
+    --elevated-surface: #15212d;
+    --border: #22313f;
+    --primary-text: #e6edf3;
+    --secondary-text: #94a5b8;
+    --muted-text: #607387;
+    --primary-accent: #35d6e8;
+    --secondary-accent: #8878ff;
+    --flow-magenta: #da5ff2;
+    --warm-intensity: #ffc46b;
+    --high-intensity: #f45b78;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--primary-text);
+    font-family:
+      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+      Arial, sans-serif;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+  }
+}
+
+/* Custom scrollbars for analytical panels */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b1420;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #22313f;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #35d6e8;
+}
+
+/* MapLibre canvas full container */
+.maplibregl-canvas {
+  outline: none;
+}
+
+/* Glassmorphism subtle surface */
+.surface-glass {
+  background-color: rgba(16, 25, 35, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid #22313f;
+}
+
+.surface-elevated {
+  background-color: #15212d;
+  border: 1px solid #22313f;
+}
