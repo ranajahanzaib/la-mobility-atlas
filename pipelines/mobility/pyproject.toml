@@ -1,0 +1,21 @@
+[project]
+name = "la-mobility-pipeline"
+version = "1.0.0"
+description = "LA Mobility Atlas ingestion and analytical pipeline"
+dependencies = [
+    "polars",
+    "duckdb",
+    "pyarrow",
+    "numpy",
+    "shapely",
+    "h3",
+    "pyproj",
+    "pydantic",
+    "typer",
+    "rich",
+    "pytest",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
